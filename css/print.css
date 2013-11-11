@@ -1,0 +1,81 @@
+@media print {
+	
+	.menu,.noPrint,.dataTables_filter,
+	#searchTbl_length,.dataTables_info,.dataTables_paginate,#searchTbl2_length{
+		display: none;
+	}
+	body,label,a{
+		font-family: "arial";
+		font-size: 15px!important;
+
+	}
+	.dateTimeCol{
+		width:200px!important;
+	}
+	div{
+		word-wrap:break-word;
+	}
+	th{
+		text-transform: capitalize;
+	}
+	.row {
+	  margin-left: -20px;
+	  *zoom: 1;
+	}
+	.pull-left{
+		float:left!important;
+	}
+	.pull-right{
+		float:right !important;
+	}
+	[class*="span"] {
+ 	  float:left;
+	  min-height: 1px;
+	  margin-left: 20px;
+	}
+		.span12 {
+	  width: 940px;
+	}
+	.span11 {
+	  width: 860px;
+	}
+	.span10 {
+	  width: 780px;
+	}
+	.span9 {
+	  width: 700px;
+	}
+	.span8 {
+	  width: 620px;
+	}
+	.span7 {
+	  width: 540px;
+	}
+	.span6 {
+	  width: 460px;
+	}
+	.span5 {
+	  width: 380px;
+	}
+	.span4 {
+	  width: 300px;
+	}
+	.span3 {
+	  width: 220px;
+	}
+	.span2 {
+	  width: 140px;
+	}
+	.span1 {
+	  width: 60px;
+	}
+	.reportFooter{
+		position: absolute;
+		top:1200px;
+		left:100px;
+	}
+	.ui-grey{
+		background-color: #5B5B5B;
+	}
+	
+}
