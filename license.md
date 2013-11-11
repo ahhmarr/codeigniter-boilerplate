@@ -1,0 +1,1 @@
+free for every purpose
